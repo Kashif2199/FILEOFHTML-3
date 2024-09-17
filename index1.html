@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KreditBee</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: white;
+        }
+
+        header img {
+            height: 40px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .sign-up-btn {
+            background-color: #ff3366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .feature-card {
+            text-align: center;
+            width: 30%;
+        }
+
+        .feature-card img {
+            height: 50px;
+        }
+
+        .blog-section {
+            padding: 20px;
+        }
+
+        .blog-cards {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .blog-card {
+            width: 30%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .blog-card h3 {
+            margin-top: 15px;
+            font-size: 18px;
+        }
+
+        .sign-up-section {
+            background-color: #ffeb3b;
+            padding: 50px;
+            text-align: center;
+            position: relative;
+        }
+
+        .sign-up-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 400px;
+            margin: 0 auto;
+        }
+
+        .sign-up-form input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .sign-up-form button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="KreditBee Logo">
+    <nav>
+        <ul>
+            <li><a href="#">Loans</a></li>
+            <li><a href="#">Calculators</a></li>
+            <li><a href="#">Credit Report</a></li>
+            <li><a href="#">Refer & Earn</a></li>
+        </ul>
+    </nav>
+    <a href="#" class="sign-up-btn">Sign Up</a>
+</header>
+
+<section class="hero">
+    <h1>Why choose KreditBee?</h1>
+</section>
+
+<section class="features">
+    <div class="feature-card">
+        <img src="https://ik.imagekit.io/krazybee/kreditbee_in/banners/New_Web/ic-1.svg" alt="Lower Interest Rates">
+        <h3>Lower Interest Rates</h3>
+        <p>Get loans for multiple purposes at lower interest rates to suit your needs.</p>
+    </div>
+    <div class="feature-card">
+        <img src="https://ik.imagekit.io/krazybee/kreditbee_in/banners/New_Web/ic-2.svg" alt="Fast Processing and Disbursal">
+        <h3>Fast Processing and Disbursal</h3>
+        <p>Apply online, check your eligibility and get money directly in your bank in 10 minutes.</p>
+    </div>
+    <div class="feature-card">
+        <img src="https://ik.imagekit.io/krazybee/kreditbee_in/banners/New_Web/ic-3.svg" alt="Easy Repayment Options">
+        <h3>Easy Repayment Options</h3>
+        <p>Repay the loan amount in easy EMI with flexible tenure options.</p>
+    </div>
+</section>
+
+<section class="blog-section">
+    <h2>Fresh from the blog</h2>
+    <div class="blog-cards">
+        <div class="blog-card">
+            <img src="https://www.kreditbee.in/blog/guide-to-right-business-financing-in-2024" alt="Blog Image">
+            <h3>9 Comfy Throws for Cosy Autumn Vibes</h3>
+            <p>Embrace the snuggling season with stylish throws that will warm your hearts.</p>
+        </div>
+        <div class="blog-card">
+            <img src="blog-2.jpg" alt="Blog Image">
+            <h3>14 Beautiful Bags That Express Your Unique Style</h3>
+            <p>Amp up your fashion game with bags that perfectly match your aesthetic.</p>
+        </div>
+        <div class="blog-card">
+            <img src="blog-3.jpg" alt="Blog Image">
+            <h3>The Best Gift Ideas for Kids of All Ages</h3>
+            <p>Shop the sweetest surprises for all little ones in your family.</p>
+        </div>
+    </div>
+</section>
+
+<section class="sign-up-section">
+    <div class="sign-up-form">
+        <h2>Create Account</h2>
+        <form>
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <input type="text" name="referral" placeholder="Referral Code (Optional)">
+            <button type="submit">Submit</button>
+        </form>
+        <p>Already have an account? <a href="#">Sign in</a></p>
+    </div>
+</section>
+
+<footer>
+    <p>COPYRIGHT © ETSTY PRIVATE LIMITED. ALL RIGHTS RESERVED</p>
+</footer>
+
+</body>
+</html>
